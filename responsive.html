@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <img srcset="
-    https://www.virgilio.it/motori/wp-content/uploads/sites/4/2024/09/apecar-modificata.jpg 1500w" alt="Un apecar"
-    sizes="35vmin"
-    >
-    <img srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Apecar.jpg/1200px-Apecar.jpg 1200w" alt="una lapa"
-    sizes="35vmin">
-    <img srcset="https://www.africarivista.it/wp-content/uploads/2021/06/000_8UW7FJ-FILEminimizer-1.jpg 1000w" alt="apecar 3 mondo"
-    sizes="50vmin">
-    
-</body>
+  </head>
+  <body>
+    <picture>
+      <source
+        media="(min-width:800px)"
+        srcset="
+        https://i0.wp.com/ilmondodeglianimali.altervista.org/wp-content/uploads/2019/02/lasino.jpg?ssl=1 1000w
+        "
+      />
+      <source
+        media="(min-width:650px)"
+        srcset="
+        https://livesicilia.it/wp-content/uploads/2018/03/asino-ride.jpg?w=600&h=340&crop=1 700w
+        "
+      />
+      <source
+        media="(min-width:400px)"
+        srcset="
+        https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJcAQgtNA1hFTUPPL9Ei1bw-XeGyMWuEUKSQ&s 500w
+        "
+      />
+      <img
+        src="https://doggeneration.it/wp-content/uploads/2022/01/bisogno-attivita-cane-scaled.jpeg"
+        alt=""
+        style="width: auto"
+      />
+    </picture>
+  </body>
 </html>
